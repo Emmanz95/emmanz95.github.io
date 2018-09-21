@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-color:black;
+	height:150px;
+	margin: 0 auto;
+
+}
+
+header p{
+	color:white;
+	font-size:18px;
+	text-transform:uppercase; 
+	margin-top:0;
+}
+
+nav{
+	background-color: grey;
+	height:50px;
+	margin: 0 auto;
+}
+
+nav p{
+	margin: 0px;
+}
+
+.main-box{
+	/*background-color:blue;*/
+	width:950px;
+	margin:0 auto; /*align a box to the center*/
+}
+
+.leftbox{
+	width:566px;
+	float:left;
+	/*background-color:yellow;*/
+	/*min-height: 100px;*/
+}
+
+.rightbox{
+	width:384px;
+	float:left;
+	border: red solid;
+	background-color:grey;
+	/*background-color:green;*/
+	/*min-height: 100px*/
+}
+
+.clearboth{
+    clear:both;
+}
+
+
+footer{
+	width: 100%;
+	background-color:#ececec;
+	height:150px;
+	margin:0 auto;
+
+}
+
+.wrapper{
+	width: 950px;
+	margin: 0 auto;
+}
+
+.header-wrapper{
+	width:950px;
+	margin:0 auto;
+}
+
+.nav-bar{
+	width:950px;
+	margin:0 auto;
+	background-color:#ececec
+	height:150px;
+	padding:0;
+    overflow:hidden;
+    list-style-type:none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.image-wrapper{
+	width:580px;
+	background-color:grey;
+	margin:0 auto;
+	border-right: 1px solid red;
+	padding-right: 15px;
+	float:left;
+}
+
+
+
+.image-wrapper img{
+	width:106px;
+	height:106px;
+	float:left;
+	margin:5px 5px 5px 5px 5px;
+	margin-left:5px;
+}
+
+.image-wrapper img:last-child{
+	margin-right:0;
+}
+
+.image-wrapper::after{
+	clear:both;
+	content:'';
+	display: block;
+
+/*About Us Page------------------------------------------------------------------------------------------------------------------------------------*/
