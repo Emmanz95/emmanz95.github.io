@@ -27,7 +27,8 @@ header p{
 }
 
 .image-wrapper2{
-	
+	position: absolute;
+	top:50%;
 }
 
 nav{
