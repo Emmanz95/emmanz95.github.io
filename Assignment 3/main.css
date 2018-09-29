@@ -21,15 +21,9 @@ header p{
 	margin-top:0;
 }
 
-.image-wrapper2 img{
-	height:105px;
-	width:106px;
-}
-
-.image-wrapper2{
-	position: absolute;
-	top:50%;
-}
+/*leftbox p{
+	text-align: justify;
+}*/
 
 nav{
 	background-color: grey;
@@ -39,6 +33,18 @@ nav{
 
 nav p{
 	margin: 0px;
+}
+
+p img{
+	text-align:right;
+	height:105px;
+	width:160px;
+}
+
+.textwrap-right{
+	float:right;
+	margin:10px;
+
 }
 
 .main-box{
@@ -54,18 +60,19 @@ nav p{
 	float:left;
 	/*background-color:yellow;*/
 	/*min-height: 100px;*/
-	border-right: 1px solid green;
+	border-right: 1px solid black;
     padding-right: 15px;
+    margin-top:1px;
 }
 
 .rightbox{
-	width:384px;
+	width:369px;
 	float:left;
 	background-color:grey;
 	margin-bottom:5px;
 	padding-left:15px;
-	margin-top:84px;
-	margin-left:0px;
+	margin-top:1px;
+	margin-left:15px;
 	/*background-color:green;*/
 	/*min-height: 100px*/
 }
