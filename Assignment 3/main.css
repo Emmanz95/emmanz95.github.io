@@ -73,6 +73,9 @@ nav p, footer p{
     clear:both;
 }
 
+.title h5{
+	text-align: left;
+}
 
 footer{
 	position: fixed;
@@ -147,19 +150,20 @@ li a:hover {
 
 
 
-.image-wrapper img{
+.imgcontainer img{
 	width:106px;
 	height:106px;
 	float:left;
 	margin:5px;
 	margin-left:0px;
+	text-align: center;
 }
 
-.image-wrapper img:last-child{
+.imgcontainer img:last-child{
 	margin-right:0;
 }
 
-.image-wrapper::after{
+.imgcontainer::after{
 	clear:both;
 	content:'';
 	display: block;
