@@ -33,7 +33,7 @@ nav{
 	min-height: 60px;
 }
 
-nav, footer{
+nav {
 	background-color: #343A40;
 }
 
@@ -180,6 +180,7 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    width: 15%;
 }
 
 /*Contact us Page------------------------------------------------------------------------------------------------------------------------------------*/
