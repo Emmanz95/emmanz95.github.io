@@ -265,3 +265,35 @@ form .submit:hover{
 	text-decoration: none;
 	float:left;
 }
+
+/*Blog-Page-------------------------------------------------------------------------------------------------------------------------------*/
+
+.blog-header{
+	text-align: center;
+	background-color: #fff;
+	min-height:100px;
+	padding: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px; 
+}
+.blog-img{
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card{
+	margin-top: 10px;
+	margin-left: 10px;
+	border-top: solid 1px;
+	width: 70%;
+}
+
+.left-card{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+  	width: 25%;
+  	border-top: solid 1px;
+}
